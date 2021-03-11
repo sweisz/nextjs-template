@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Button from "../components/button/Button";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -48,6 +49,8 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <Button primary label="Primary"></Button>
+        <Button primary={false} label="Secondary"></Button>
       </main>
 
       <footer className={styles.footer}>
